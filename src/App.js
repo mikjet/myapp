@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React - Haya and Michel
+          Learn React and Jenkins (H&M) 
         </a>
       </header>
     </div>
