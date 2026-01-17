@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const handleClick = () => {
+    console.log('Button Clicked');
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React and Jenkins (H&M) 
         </a>
+        <button onClick={handleClick}>Click Me</button>
       </header>
     </div>
   );
